@@ -7,6 +7,7 @@ This project uses simple python scripts to read the values from a solar inverter
   https://www.varta-storage.com/en/energiespeicher/element
 
 Additionally a grafana configuration is included to depict the values.
+![grafana kostal and varta](/images/grafana_KostalVarta.png)
 
 A cronjob can be used to retrieve the information from the monitored systems and pass it to the influxdb:
 ```
