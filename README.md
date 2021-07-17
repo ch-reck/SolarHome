@@ -1,4 +1,4 @@
-# KostalVartaHome
+# ReckSolarHome
 
 This project uses simple python scripts to read the values from a solar inverter and battery system and feed the values into an Influx database. Current setup is tested to support:
 * ```kostal2influxdb.py```  solar Kostal Pico 8.5 inverter
