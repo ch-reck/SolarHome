@@ -1,0 +1,23 @@
+# YAML 1.2
+---
+cff-version: "1.1.0"
+message: "If you use this software, please cite it using these metadata."
+title: "Solarhaus mit Eisspeicher"
+abstract: |
+    "Energy-saving houses are manufactured with different characteristics and efficiency classes. Our goal was to create a house that can be operated energy-neutral over the years. The resulting house exceeds expectations both in the calculations and in the measurements of the first two years.
+    
+    Here we present this idea of a house, fed from 100% renewable energy, to all building planners in order to contribute to a faster transition away from causes of global warming."
+authors: 
+  -
+    family-names: Reck
+    given-names: Christoph
+date-released: 2020-12-20
+keywords: 
+  - "Solar Energy"
+  - Photovoltaic
+  - "Renewable Energy"
+  - "Latent Energy Storage"
+  - Heatpump
+  - "CO2 Reduction"
+repository-code: "https://github.com/ch-reck/SolarHome/"
+...
