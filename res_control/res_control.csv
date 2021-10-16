@@ -1,0 +1,58 @@
+ResControl,Modul,Namen,Adresse, Bezeichnung, Read/Write, Dateiformat,Einheit,Min,Max,Exponent,Typ,Bereich,Aufzeichnen
+RESCONTROL_WP,WQP,Betriebsart,4545,Betriebsart,R,INT16,,0,4,0,Eingang,Endkunde,x
+RESCONTROL_WP,WQP,Leistung,8641,Pumpe,R,INT16,%,0,100,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,WNP,Betriebsart,4609,Betriebsart,R,INT16,,0,4,0,Eingang,Endkunde,x
+RESCONTROL_WP,WNP,Leistung,8705,Pumpe,R,INT16,%,0,100,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,WR,Leistung,8769,Aktuelle Leistung,R,INT16,W,0,99999,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,WP,WQE,4737,WQE: WP Wärmequelle Eingang,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,WP,WQA,4738,WQA: WP Wärmequelle Ausgang,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,WP,WNE,4747,WNE: WP Wärmenutzung Eingang,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,WP,WNA,4748,WNA: WP Wärmenutzung Ausgang,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,WP,WTE,4739,WQE: WT Wärmequelle Eingang,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,WP,WTA,4301,WT WHA Fühler,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,WP,ATemp,4746,Außenfühler,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,WP,Stoe,4742,Störungsmeldung,R,INT16,,0,0,0,Eingang,Endkunde,
+RESCONTROL_WP,WP,Kompr1,8833,E4W3 KompressMot Nr.1,R,INT16,,0,0,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,WP,Kompr2,8834,E4W3 KompressMot Nr.2,R,INT16,,0,0,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,WP,WNPBetriebsart,8836,WN-Pumpe Betriebsart,R,INT16,,0,3,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,WP,WQPBetriebsart,8840,WQ-Pumpe Betriebsart,R,INT16,,0,3,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,WQ3WM,Betriebsart,4353,Betriebsart,R,INT16,,0,3,0,Eingang,Servicetechniker,x
+RESCONTROL_WP,WQ3WM,Sollposition,4356,Sollposition,R,INT16,%,0,100,0,Eingang,Servicetechniker,x
+RESCONTROL_WP,WQ4WM,Betriebsart,4417,Betriebsart,R,INT16,,0,3,0,Eingang,Servicetechniker,x
+RESCONTROL_WP,WQ4WM,Parameterset,4420,Parameterset,R,INT16,,0,10,0,Eingang,Endkunde,x
+RESCONTROL_WP,SP,PFO,4225,PFO Puffer oben,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,SP,PF6,4226,PF6 Puffer 60%,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,SP,PF3,4227,PF3 Puffer 30%,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,SP,PFU,4228,PFU Puffer unten,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,SP,HKHWAnf,4229,HK HW Anforderung,R,INT16,,0,0,0,Eingang,Endkunde,x
+RESCONTROL_WP,SP,HKHWSoll,4230,HK HW Solltemperatur,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,SP,WWAnf,8321,WW Anforderung,R,INT16,,0,1,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,SP,SollvorlaufTemp,8322,Sollvorlauftemp.,R,INT16,°C,0,1000,-1,Ausgang,Servicetechniker,x
+RESCONTROL_WP,SP,Ueberladen,8324,Speicher Überladung möglich,R,INT16,,0,1,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,SP,HWAnf,8326,HW Anforderung,R,INT16,,0,1,0,Ausgang,Servicetechniker,x
+RESCONTROL_WP,SP,WWFein,12420,Fühl. WW ladung Ein             ,R/W,INT16,,0,5,0,Parameter,Servicetechniker,x
+RESCONTROL_WP,SP,WWTein,12421,Temp. WW Ladung Ein             ,R/W,INT16,°C,300,900,-1,Parameter,Endkunde,x
+RESCONTROL_WP,SP,WWFaus,12422,Fühl. WW Ladung Aus             ,R/W,INT16,,0,5,0,Parameter,Servicetechniker,x
+RESCONTROL_WP,SP,WWTaus,12423,Temp. WW Ladung Aus             ,R/W,INT16,°C,0,900,-1,Parameter,Endkunde,x
+RESCONTROL_WP,SP,WWFueberl,12424,Überladung bis                  ,R/W,INT16,,0,3,0,Parameter,Endkunde,x
+RESCONTROL_WP,SP,UeberlTemp,12425,Überladung Temperatur           ,R/W,INT16,°C,0,1000,-1,Parameter,Endkunde,x
+RESCONTROL_WP,SP,HWFein,12429,Fühl. HW ladung Ein             ,R/W,INT16,,0,5,0,Parameter,Servicetechniker,
+RESCONTROL_WP,SP,HWFaus,12430,Fühl. HW Ladung Aus             ,R/W,INT16,,0,5,0,Parameter,Servicetechniker,
+RESCONTROL_WP,RC,SKFTemp,4289,SKF Solar Kollektorfühler,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,RC,SKVF,4290,SKVF Vorlauffühler,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_WP,RC,WPMStatus,4300,WP Modulstatus,R,INT16,,0,255,0,Eingang,Servicetechniker,x
+RESCONTROL_WP,RC,SERTemp,12493,Solar in Erde Regeltemperatur,R/W,INT16,K,0,2000,-1,Parameter,res,x
+RESCONTROL_WP,RC,EKTemp,12500,Erdkollektortemp,R/W,INT16,°C,0,300,0,-1,Parameter,Servicetechniker,x
+RESCONTROL_WP,WTM,Sollwert,4482,Sollwert,R,INT16,°C,-500,2000,-1,Eingang,Servicetechniker,x
+RESCONTROL_WP,WTM,Istwert,4483,Istwert,R,INT16,°C,-500,2000,-1,Eingang,Servicetechniker,x
+RESCONTROL_HK,HK1M,Sollwert,4418,Sollwert,R,INT16,°C,-500,2000,-1,Eingang,Servicetechniker,x
+RESCONTROL_HK,HK1M,Istwert,4419,Istwert,R,INT16,°C,-500,2000,-1,Eingang,Servicetechniker,x
+RESCONTROL_HK,HK2M,Sollwert,4482,Sollwert,R,INT16,°C,-500,2000,-1,Eingang,Servicetechniker,x
+RESCONTROL_HK,HK2M,Istwert,4483,Istwert,R,INT16,°C,-500,2000,-1,Eingang,Servicetechniker,x
+RESCONTROL_HK,HK1P,Pumpe,8705,Pumpe,R,INT16,%,0,100,0,Ausgang,Servicetechniker,x
+RESCONTROL_HK,HK2P,Pumpe,8769,Pumpe,R,INT16,%,0,100,0,Ausgang,Servicetechniker,x
+RESCONTROL_HK,HK1,VF,4226,VF: Vorlauffühler,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_HK,HK1,RF,4227,RF: Rücklauffüher,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_HK,HK2,VF,4290,VF: Vorlauffühler,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_HK,HK2,RF,4291,RF: Rücklauffüher,R,INT16,°C,-500,2000,-1,Eingang,Endkunde,x
+RESCONTROL_HK,HZ,HZ,8897,Heizzeit,R,INT16,,0,0,0,Parameter,Endkunde,x
